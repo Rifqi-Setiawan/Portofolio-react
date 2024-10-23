@@ -4,6 +4,7 @@ import Suwit from "../assets/suwit.png";
 import Ecommerce from "../assets/ecommerce_flutter.png";
 import SignUp from "../assets/SignUp_Flutter.png";
 import ToDoList from "../assets/to do list_flutter.png";
+import Contact from "../components/Contact";
 
 export const TEXT_ABOUT: string =
   "Halo! Saya Muhammad Rifqi Setiawan, seorang mahasiswa jurusan Informatika di Telkom University. Saya memiliki antusiasme yang besar terhadap teknologi dan saat ini saya sedang mendalami dunia pengembangan front-end developer. Saya menghabiskan waktu saya untuk mempelajari berbagai teknologi dan framework terbaru. saya mempunyai basic HTML, CSS, golang, javascript dan flutter. Saya juga memiliki kemampuan menggunakan salah satu framework CSS yaitu tailwind CSS. Untuk bidang organisasi, saya mengikuti Al-Fath, GDSC Telkom University dan ASE Laboratory.";
@@ -69,3 +70,17 @@ export const PROJECTS: Projects[] = [
   teknologi: ["React.js", "Javascript", "Tailwind.css"]
 },
 ]
+
+type Contact = {
+  address: string,
+  noHP: string,
+  email: string,
+}
+
+export const CONTACT: Contact= {
+  address: "Jl Adhyaksa 4 Barat 2 No 4 RT 04 RW 05 Desa Sukapura Kec Dayeuh Kolot Kab Bandung 40267 (Pondok Indriati)",
+  noHP: "082178830078",
+  email: "rifqis232@gmail.com",
+}
+
+
